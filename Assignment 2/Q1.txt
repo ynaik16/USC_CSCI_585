@@ -1,0 +1,18 @@
+
+CREATE TABLE ProjectRoomBookings
+(roomNum INTEGER NOT NULL,
+startTime INTEGER NOT NULL,
+endTime INTEGER NOT NULL,
+groupName CHAR(10) NOT NULL,
+PRIMARY KEY (roomNum, startTime));
+
+
+
+-- Explanation
+
+In order to fix the two issues eith this table, firstly I will use a "check" constraint at the table level, which would enforce the condition (Startime < endtime) to ensure that the meeting room can never be reserved at or after the end time for that reservation. Thus, whenever a new entry is made into this table, with the help of this constraint the table will throw an error if start time for a reservation is equal to or greater than the end time. 
+
+Solving the second part of this question was quite tricky, in my opinion. 
+To avoid the overlapped booking of a room, we can create a "trigger" condition at the table level. This trigger will be activated before a new entry is added to the table or everytime after an update has been made on the table.
+In this trigger, a new "counter" variable can be declared which increments whenever a room is booked by any group for a particular period of time and would reset after the reservation slot ends. The trigger then invokes a function, which, in turn, compare the start and end time for the reservation of a newer entry into the table and check the check the value of the "counter" variable. If the counter variable's value is returned as greater that 0, an error will be thrown by SQL, ensuring that particular room cannot be re-booked until the current reservation ends.
+For instance, there is an entry already present in the table for (room = 101, between = 7 am and 12 pm, for group = 'A') and another entry is made into the table for (room = 101, between = 9 am and 11 am, for group = 'B') then, with the help of the trigger condition, SQL would raise an error and would not allow the new entry to be added to the table.
