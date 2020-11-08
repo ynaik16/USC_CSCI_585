@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>AccountingLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2855,34.01915</coordinates></Point>
+</Placemark>
+<Placemark><name>DehenyLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283748,34.020043</coordinates></Point>
+</Placemark>
+<Placemark><name>LeaveyLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2829,34.02184</coordinates></Point>
+</Placemark>
+<Placemark><name>HooseLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286609,34.018665</coordinates></Point>
+</Placemark>
+<Placemark><name>ArchitectureFALib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287928,34.019321</coordinates></Point>
+</Placemark>
+<Placemark><name>WilsonLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286222,34.023922</coordinates></Point>
+</Placemark>
+<Placemark><name>GerontologyLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283738,34.020202</coordinates></Point>
+</Placemark>
+<Placemark><name>LawLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284557,34.018924</coordinates></Point>
+</Placemark>
+<Placemark><name>CarolynCFrancisLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283440,34.020464</coordinates></Point>
+</Placemark>
+<Placemark><name>EastAsianLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283747,34.020150</coordinates></Point>
+</Placemark>
+<Placemark><name>CinematicLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283545,34.020078</coordinates></Point>
+</Placemark>
+<Placemark><name>ScienceEngLib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288787,34.019598</coordinates></Point>
+</Placemark>
+<Placemark><name>TommyTrojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285435,34.020573</coordinates></Point>
+</Placemark>
+</Document></kml>

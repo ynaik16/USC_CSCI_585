@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+  -118.283440,34.020464
+  -118.285435,34.020573
+  -118.2855,34.01915
+  -118.285435,34.020573
+  -118.283748,34.020043
+  -118.285435,34.020573
+  -118.283738,34.020202
+  -118.285435,34.020573
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+
+<Placemark>
+    <name>LeaveyLib</name>
+    <Point>
+      <coordinates>-118.2829,34.02184</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>HooseLib</name>
+    <Point>
+      <coordinates>-118.286609,34.018665</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>ArchitectureFALib</name>
+    <Point>
+      <coordinates>-118.287928,34.019321</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>WilsonLib</name>
+    <Point>
+      <coordinates>-118.286222,34.023922</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>GerontologyLib</name>
+    <Point>
+      <coordinates>-118.283738,34.020202</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>LawLibrary</name>
+    <Point>
+      <coordinates>-118.284557,34.018924</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>CinematicLib</name>
+    <Point>
+      <coordinates>-118.283545,34.020078</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>ScienceEngLib</name>
+    <Point>
+      <coordinates>-118.288787,34.019598</coordinates>
+    </Point>
+</Placemark>
+
+
+
+
+
+<Placemark>
+    <name>CarolynCFLibrary</name>
+    <Point>
+      <coordinates>-118.283440,34.020464</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>AccountingLib</name>
+    <Point>
+      <coordinates>-118.2855,34.01915</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>DehenyLib</name>
+    <Point>
+      <coordinates>-118.283748,34.020043</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>GerontologyLib</name>
+    <Point>
+      <coordinates>-118.283738,34.020202</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>TommyTrojan</name>
+    <Point>
+      <coordinates>-118.285435,34.020573</coordinates>
+    </Point>
+</Placemark>
+
+</Document> </kml>

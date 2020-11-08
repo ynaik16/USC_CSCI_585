@@ -1,0 +1,23 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Placemark>
+<name>The Pentagon</name>
+<Polygon>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<color>00ff6633</color>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-118.286222,34.023922,100
+-118.2829,34.02184,100
+-118.283545,34.020078,100
+-118.284557,34.018924,100
+-118.286609,34.018665,100
+-118.288787,34.019598,100
+-118.286222,34.023922,100
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</kml>
